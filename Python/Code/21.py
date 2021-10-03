@@ -1,0 +1,5 @@
+f1=open("marks.txt","r")
+s1=f1.readline()
+print(s1)
+list1=s1.split(",")
+print(list1[0])
